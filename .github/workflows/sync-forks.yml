@@ -1,0 +1,95 @@
+name: Sync all forks
+
+on:
+  schedule:
+    # 每天 09:00 新加坡时间 = 01:00 UTC
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: fork-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Sync every fork with its upstream
+        env:
+          GH_TOKEN: ${{ secrets.FORK_SYNC_TOKEN }}
+        run: |
+          failed=0
+          {
+            echo "## 同步结果"
+            echo ""
+            echo "| Fork | 上游 | 结果 |"
+            echo "| --- | --- | --- |"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          echo "== 列出账号下所有 fork =="
+          repos=$(gh repo list --fork --limit 1000 --json nameWithOwner --jq '.[].nameWithOwner')
+
+          if [ -z "$repos" ]; then
+            echo "没有找到任何 fork。"
+            exit 0
+          fi
+
+          for repo in $repos; do
+            if [ -f skip.txt ] && grep -qx "$repo" skip.txt; then
+              echo "[SKIP] $repo：在跳过名单里（skip.txt）"
+              echo "| $repo | - | 跳过：已在跳过名单 |" >> "$GITHUB_STEP_SUMMARY"
+              continue
+            fi
+
+            branch=$(gh api "repos/$repo" --jq '.default_branch')
+            parent=$(gh api "repos/$repo" --jq '.parent.full_name // empty')
+
+            if [ -z "$parent" ]; then
+              echo "[SKIP] $repo：没有上游仓库"
+              echo "| $repo | - | 跳过：没有上游 |" >> "$GITHUB_STEP_SUMMARY"
+              continue
+            fi
+
+            code=$(curl -s -o /tmp/merge.json -w '%{http_code}' -X POST \
+              -H "Authorization: Bearer $GH_TOKEN" \
+              -H "Accept: application/vnd.github+json" \
+              -H "X-GitHub-Api-Version: 2022-11-28" \
+              "https://api.github.com/repos/$repo/merge-upstream" \
+              -d "{\"branch\": \"$branch\"}")
+
+            case "$code" in
+              200)
+                merge_type=$(jq -r '.merge_type // empty' /tmp/merge.json)
+                echo "[OK] $repo：已同步（上游 $parent，方式 $merge_type）"
+                echo "| $repo | $parent | 已同步 ($merge_type) |" >> "$GITHUB_STEP_SUMMARY"
+                ;;
+              204)
+                echo "[OK] $repo：本来就是最新的"
+                echo "| $repo | $parent | 已是最新 |" >> "$GITHUB_STEP_SUMMARY"
+                ;;
+              409)
+                echo "[FAIL] $repo：有冲突，需要手动处理"
+                echo "| $repo | $parent | 失败：有冲突，需手动处理 |" >> "$GITHUB_STEP_SUMMARY"
+                failed=1
+                ;;
+              422)
+                echo "[FAIL] $repo：无法同步（422），可能是分支受保护或上游异常"
+                echo "| $repo | $parent | 失败：无法同步（422） |" >> "$GITHUB_STEP_SUMMARY"
+                failed=1
+                ;;
+              *)
+                echo "[FAIL] $repo：HTTP $code"
+                echo "| $repo | $parent | 失败：HTTP $code |" >> "$GITHUB_STEP_SUMMARY"
+                failed=1
+                ;;
+            esac
+          done
+
+          if [ "$failed" -ne 0 ]; then
+            echo "有 fork 同步失败，见上表。"
+            exit 1
+          fi
+          echo "全部完成。"
