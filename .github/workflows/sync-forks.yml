@@ -16,10 +16,14 @@ jobs:
     permissions:
       contents: read
     steps:
-      - uses: actions/checkout@v4
       - name: Sync every fork with its upstream
         env:
           GH_TOKEN: ${{ secrets.FORK_SYNC_TOKEN }}
+          # 【不想合并的项目填这里】逗号分隔的完整仓库名，留空 = 不排除
+          # 例: EXCLUDE_REPOS: "CharisLee/old-project,CharisLee/frozen-fork"
+          EXCLUDE_REPOS: ""
+          # true = 自动跳过已自带 merge-upstream / sync 类 Action 的 fork，避免重复合并
+          SKIP_SELF_MANAGED: "true"
         run: |
           failed=0
           {
@@ -38,12 +42,6 @@ jobs:
           fi
 
           for repo in $repos; do
-            if [ -f skip.txt ] && grep -qx "$repo" skip.txt; then
-              echo "[SKIP] $repo：在跳过名单里（skip.txt）"
-              echo "| $repo | - | 跳过：已在跳过名单 |" >> "$GITHUB_STEP_SUMMARY"
-              continue
-            fi
-
             branch=$(gh api "repos/$repo" --jq '.default_branch')
             parent=$(gh api "repos/$repo" --jq '.parent.full_name // empty')
 
@@ -51,6 +49,45 @@ jobs:
               echo "[SKIP] $repo：没有上游仓库"
               echo "| $repo | - | 跳过：没有上游 |" >> "$GITHUB_STEP_SUMMARY"
               continue
+            fi
+
+            # 1) 排除清单：不想合并的项目直接跳过
+            if [ -n "$EXCLUDE_REPOS" ]; then
+              excluded=0
+              old_ifs="$IFS"; IFS=','
+              for part in $EXCLUDE_REPOS; do
+                clean=$(echo "$part" | tr -d ' ' | tr '[:upper:]' '[:lower:]')
+                me=$(echo "$repo" | tr '[:upper:]' '[:lower:]')
+                if [ "$clean" = "$me" ]; then excluded=1; fi
+              done
+              IFS="$old_ifs"
+              if [ "$excluded" = "1" ]; then
+                echo "[SKIP] $repo：已设为不参与同步（EXCLUDE_REPOS）"
+                echo "| $repo | $parent | 跳过：已设为不参与同步 |" >> "$GITHUB_STEP_SUMMARY"
+                continue
+              fi
+            fi
+
+            # 2) 自动检测自带同步 Action：有就跳过，避免两个任务重复合并
+            if [ "$SKIP_SELF_MANAGED" = "true" ]; then
+              self_managed=0
+              wf_files=$(gh api "repos/$repo/contents/.github/workflows" --jq '.[].name' 2>/dev/null || true)
+              for f in $wf_files; do
+                lower_f=$(echo "$f" | tr '[:upper:]' '[:lower:]')
+                case "$lower_f" in
+                  *upstream*|*sync-fork*|*fork-sync*|*merge-upstream*) self_managed=1 ;;
+                esac
+                if [ "$self_managed" = "0" ]; then
+                  raw=$(gh api "repos/$repo/contents/.github/workflows/$f" --jq '.content // empty' 2>/dev/null || true)
+                  decoded=$(echo "$raw" | base64 -d 2>/dev/null || true)
+                  if echo "$decoded" | grep -qi "merge-upstream"; then self_managed=1; fi
+                fi
+              done
+              if [ "$self_managed" = "1" ]; then
+                echo "[SKIP] $repo：检测到自带同步 Action，跳过中央同步"
+                echo "| $repo | $parent | 跳过：项目自带同步 Action |" >> "$GITHUB_STEP_SUMMARY"
+                continue
+              fi
             fi
 
             code=$(curl -s -o /tmp/merge.json -w '%{http_code}' -X POST \
@@ -89,7 +126,7 @@ jobs:
           done
 
           if [ "$failed" -ne 0 ]; then
-            echo "有 fork 同步失败，见上表。"
+            echo "有 fork 同步失败，见上表。被跳过的项目不算失败。"
             exit 1
           fi
           echo "全部完成。"
