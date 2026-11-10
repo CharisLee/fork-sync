@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T23:55:10Z",
+  "updated_at": "2026-11-10T07:54:34Z",
   "excluded": {
     "CharisLee/aboutme-pets": {
       "code": "409",
@@ -33,527 +33,539 @@
     }
   },
   "last": {
-    "CharisLee/iTerm2-Color-Schemes": {
-      "status": "rejoined",
-      "code": "",
+    "CharisLee/3x-ui": {
+      "status": "synced",
+      "code": "200",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
-    },
-    "CharisLee/CS-Notes": {
-      "status": "rejoined",
-      "code": "",
-      "error": "",
-      "at": "2026-11-09T23:55:10Z"
-    },
-    "CharisLee/mkdocs": {
-      "status": "rejoined",
-      "code": "",
-      "error": "",
-      "at": "2026-11-09T23:55:10Z"
-    },
-    "CharisLee/uptime-kuma": {
-      "status": "rejoined",
-      "code": "",
-      "error": "",
-      "at": "2026-11-09T23:55:10Z"
-    },
-    "CharisLee/vercel": {
-      "status": "rejoined",
-      "code": "",
-      "error": "",
-      "at": "2026-11-09T23:55:10Z"
-    },
-    "CharisLee/mkdocs-material": {
-      "status": "rejoined",
-      "code": "",
-      "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/legba": {
-      "status": "rejoined",
-      "code": "",
+      "status": "synced",
+      "code": "200",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
+    },
+    "CharisLee/iTerm2-Color-Schemes": {
+      "status": "synced",
+      "code": "200",
+      "error": "",
+      "at": "2026-11-10T07:54:34Z"
+    },
+    "CharisLee/CS-Notes": {
+      "status": "synced",
+      "code": "200",
+      "error": "",
+      "at": "2026-11-10T07:54:34Z"
+    },
+    "CharisLee/mkdocs": {
+      "status": "synced",
+      "code": "200",
+      "error": "",
+      "at": "2026-11-10T07:54:34Z"
+    },
+    "CharisLee/uptime-kuma": {
+      "status": "synced",
+      "code": "200",
+      "error": "",
+      "at": "2026-11-10T07:54:34Z"
+    },
+    "CharisLee/vercel": {
+      "status": "synced",
+      "code": "200",
+      "error": "",
+      "at": "2026-11-10T07:54:34Z"
+    },
+    "CharisLee/mkdocs-material": {
+      "status": "synced",
+      "code": "200",
+      "error": "",
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/dub": {
-      "status": "rejoined",
-      "code": "",
+      "status": "synced",
+      "code": "200",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
-    },
-    "CharisLee/3x-ui": {
-      "status": "rejoined",
-      "code": "",
-      "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/wallabag": {
-      "status": "rejoined",
-      "code": "",
+      "status": "synced",
+      "code": "200",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/shiori": {
-      "status": "rejoined",
-      "code": "",
+      "status": "synced",
+      "code": "200",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/bla": {
-      "status": "rejoined",
-      "code": "",
+      "status": "synced",
+      "code": "200",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/Scrapling": {
-      "status": "rejoined",
-      "code": "",
+      "status": "synced",
+      "code": "200",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/Concat": {
-      "status": "rejoined",
-      "code": "",
+      "status": "synced",
+      "code": "200",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/proxy_admin_free": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/awesome-cheatsheets": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/awesome-toolbox-chinese": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/self-hosted-livesync-server": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/run": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/CRMEB": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/ChinaTextbook": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/anything2explainer": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/mg-styles-15": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/video-talkcraft": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/code-video-showcase": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/awesome-short-drama-skills": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/aimy-skill": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/video-shotcraft": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/skills-android": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/xtool": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/ghidra": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/hypit": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/gods-eye-view": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/workbuddy-manager": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/iFixAi": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/stylekit": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/skills-games": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/taste-skill": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/aboutme-pets": {
       "status": "skipped_auto",
       "code": "",
       "error": "There are merge conflicts",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/proxypin": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/skills-vercel": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/mobilegym": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/diagram-design": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/dsh-voice-ai-girlfriend": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/cyber-xiaoya-live": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/skills": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/folia-major": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/BrowserSkill": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/nihaixia": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/LinkSwift": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/rea": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/impeccable": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/Mole": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/nuclei": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/VoiceStudio": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/laya": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/strix": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/artex-ymh": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/reverse-skill": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/hanshuang-codex": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/XSXB-Band": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/G0DM0D3": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/openspeedy": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/CLI-Anything": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/pentagi": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/lucian-uxui-prompt": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/scaffold-master": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/hanshuang-codex-new": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/style-atlas": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/html-video": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/dsh-purge": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/hanshuang-inject-tool": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/mono-color-skill": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/CyberVerse": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/ai-goofish-monitor": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/ARTEX": {
       "status": "skipped_auto",
       "code": "",
       "error": "There are merge conflicts",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
+    },
+    "CharisLee/transparent-finance-agent": {
+      "status": "synced",
+      "code": "200",
+      "error": "",
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/ppanel-docs": {
       "status": "skipped_auto",
       "code": "",
       "error": "There are merge conflicts",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/x-ui": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/next-terminal": {
       "status": "skipped_auto",
       "code": "",
       "error": "There are merge conflicts",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/NF": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/iroiro": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/super-productivity-themes": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/HackBrowserData": {
       "status": "skipped_auto",
       "code": "",
       "error": "There are merge conflicts",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/goproxy": {
       "status": "skipped_auto",
       "code": "",
       "error": "There are merge conflicts",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/bbrplus": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/v2ray-1": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
     },
     "CharisLee/python-scripting": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-09T23:55:10Z"
+      "at": "2026-11-10T07:54:34Z"
+    },
+    "CharisLee/FingerTransparentView": {
+      "status": "synced",
+      "code": "200",
+      "error": "",
+      "at": "2026-11-10T07:54:34Z"
     }
   }
 }
