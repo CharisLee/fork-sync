@@ -24,7 +24,7 @@ jobs:
           GH_TOKEN: ${{ secrets.FORK_SYNC_TOKEN }}
           # [不想合并的项目填这里] 逗号分隔的完整仓库名，留空 = 不排除
           # 例: EXCLUDE_REPOS: "CharisLee/old-project,CharisLee/frozen-fork"
-          EXCLUDE_REPOS: "CharisLee/aboutme-pets,CharisLee/ARTEX,CharisLee/ppanel-docs,CharisLee/next-terminal,CharisLee/HackBrowserData,CharisLee/goproxy"
+          EXCLUDE_REPOS: ""
           # true = 自动跳过已自带 merge-upstream / sync 类 Action 的 fork，避免重复合并
           SKIP_SELF_MANAGED: "true"
         run: |
