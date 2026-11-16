@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T07:22:57Z",
+  "updated_at": "2026-11-16T07:28:52Z",
   "excluded": {
     "CharisLee/aboutme-pets": {
       "code": "409",
@@ -55,548 +55,553 @@
       "code": "422",
       "error": "refusing to allow a Personal Access Token to create or update workflow `.github/workflows/ci.yml` without `workflow` scope",
       "since": "2026-11-14T07:13:33Z"
+    },
+    "CharisLee/uptime-kuma": {
+      "code": "422",
+      "error": "refusing to allow a Personal Access Token to create or update workflow `.github/workflows/auto-test.yml` without `workflow` scope",
+      "since": "2026-11-16T07:28:52Z"
     }
   },
   "last": {
-    "CharisLee/reverse-skill": {
-      "status": "skipped_self",
-      "code": "",
-      "error": "",
-      "at": "2026-11-15T07:22:57Z"
-    },
-    "CharisLee/hypit": {
-      "status": "synced",
-      "code": "200",
-      "error": "",
-      "at": "2026-11-15T07:22:57Z"
-    },
-    "CharisLee/uptime-kuma": {
-      "status": "synced",
-      "code": "200",
-      "error": "",
-      "at": "2026-11-15T07:22:57Z"
-    },
-    "CharisLee/wallabag": {
-      "status": "synced",
-      "code": "200",
-      "error": "",
-      "at": "2026-11-15T07:22:57Z"
-    },
-    "CharisLee/iTerm2-Color-Schemes": {
-      "status": "synced",
-      "code": "200",
-      "error": "",
-      "at": "2026-11-15T07:22:57Z"
-    },
-    "CharisLee/bla": {
-      "status": "synced",
-      "code": "200",
-      "error": "",
-      "at": "2026-11-15T07:22:57Z"
-    },
     "CharisLee/proxypin": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
-    "CharisLee/skills-vercel": {
+    "CharisLee/reverse-skill": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/stylekit": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
-    },
-    "CharisLee/cyber-xiaoya-live": {
-      "status": "synced",
-      "code": "200",
-      "error": "",
-      "at": "2026-11-15T07:22:57Z"
-    },
-    "CharisLee/vercel": {
-      "status": "synced",
-      "code": "200",
-      "error": "",
-      "at": "2026-11-15T07:22:57Z"
-    },
-    "CharisLee/skills-games": {
-      "status": "skipped_self",
-      "code": "",
-      "error": "",
-      "at": "2026-11-15T07:22:57Z"
-    },
-    "CharisLee/skills": {
-      "status": "skipped_self",
-      "code": "",
-      "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/workbuddy-manager": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
+    },
+    "CharisLee/bla": {
+      "status": "synced",
+      "code": "200",
+      "error": "",
+      "at": "2026-11-16T07:28:52Z"
+    },
+    "CharisLee/iTerm2-Color-Schemes": {
+      "status": "synced",
+      "code": "200",
+      "error": "",
+      "at": "2026-11-16T07:28:52Z"
+    },
+    "CharisLee/wallabag": {
+      "status": "synced",
+      "code": "200",
+      "error": "",
+      "at": "2026-11-16T07:28:52Z"
+    },
+    "CharisLee/uptime-kuma": {
+      "status": "failed",
+      "code": "422",
+      "error": "refusing to allow a Personal Access Token to create or update workflow `.github/workflows/auto-test.yml` without `workflow` scope",
+      "at": "2026-11-16T07:28:52Z"
+    },
+    "CharisLee/hypit": {
+      "status": "synced",
+      "code": "200",
+      "error": "",
+      "at": "2026-11-16T07:28:52Z"
+    },
+    "CharisLee/skills-vercel": {
+      "status": "skipped_self",
+      "code": "",
+      "error": "",
+      "at": "2026-11-16T07:28:52Z"
+    },
+    "CharisLee/cyber-xiaoya-live": {
+      "status": "synced",
+      "code": "200",
+      "error": "",
+      "at": "2026-11-16T07:28:52Z"
+    },
+    "CharisLee/vercel": {
+      "status": "synced",
+      "code": "200",
+      "error": "",
+      "at": "2026-11-16T07:28:52Z"
+    },
+    "CharisLee/skills-games": {
+      "status": "skipped_self",
+      "code": "",
+      "error": "",
+      "at": "2026-11-16T07:28:52Z"
+    },
+    "CharisLee/skills": {
+      "status": "skipped_self",
+      "code": "",
+      "error": "",
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/CyberVerse": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/video-shotcraft": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/Mika": {
       "status": "skipped_auto",
       "code": "",
       "error": "refusing to allow a Personal Access Token to create or update workflow `.github/workflows/mika-test-apk.yml` without `workflow` scope",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/ghidra": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/LinkSwift": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/gods-eye-view": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/Concat": {
       "status": "skipped_auto",
       "code": "",
       "error": "refusing to allow a Personal Access Token to create or update workflow `.github/workflows/build-app.yml` without `workflow` scope",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/3x-ui": {
       "status": "skipped_auto",
       "code": "",
       "error": "refusing to allow a Personal Access Token to create or update workflow `.github/workflows/release.yml` without `workflow` scope",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/legba": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/CS-Notes": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/mkdocs": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/mkdocs-material": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/dub": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/shiori": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/Scrapling": {
       "status": "skipped_auto",
       "code": "",
       "error": "refusing to allow a Personal Access Token to create or update workflow `.github/workflows/stale.yml` without `workflow` scope",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/proxy_admin_free": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/awesome-cheatsheets": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/awesome-toolbox-chinese": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/self-hosted-livesync-server": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/run": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/CRMEB": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/ChinaTextbook": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/anything2explainer": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/mg-styles-15": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/video-talkcraft": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/code-video-showcase": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/awesome-short-drama-skills": {
       "status": "skipped_auto",
       "code": "",
       "error": "refusing to allow a Personal Access Token to create or update workflow `.github/workflows/ci.yml` without `workflow` scope",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/aimy-skill": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/skills-android": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/xtool": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/iFixAi": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/taste-skill": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/aboutme-pets": {
       "status": "skipped_auto",
       "code": "",
       "error": "There are merge conflicts",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/mobilegym": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/diagram-design": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/dsh-voice-ai-girlfriend": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/folia-major": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/BrowserSkill": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/nihaixia": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/rea": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/impeccable": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/Mole": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/nuclei": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/VoiceStudio": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/laya": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/strix": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/artex-ymh": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/hanshuang-codex": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/XSXB-Band": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/G0DM0D3": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/openspeedy": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/CLI-Anything": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/pentagi": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/lucian-uxui-prompt": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/scaffold-master": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/hanshuang-codex-new": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/style-atlas": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/html-video": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/dsh-purge": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/hanshuang-inject-tool": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/mono-color-skill": {
       "status": "skipped_self",
       "code": "",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/ai-goofish-monitor": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/ARTEX": {
       "status": "skipped_auto",
       "code": "",
       "error": "There are merge conflicts",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/transparent-finance-agent": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/ppanel-docs": {
       "status": "skipped_auto",
       "code": "",
       "error": "There are merge conflicts",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/x-ui": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/next-terminal": {
       "status": "skipped_auto",
       "code": "",
       "error": "There are merge conflicts",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/NF": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/iroiro": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/super-productivity-themes": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/HackBrowserData": {
       "status": "skipped_auto",
       "code": "",
       "error": "There are merge conflicts",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/goproxy": {
       "status": "skipped_auto",
       "code": "",
       "error": "There are merge conflicts",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/bbrplus": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/v2ray-1": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/python-scripting": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     },
     "CharisLee/FingerTransparentView": {
       "status": "synced",
       "code": "200",
       "error": "",
-      "at": "2026-11-15T07:22:57Z"
+      "at": "2026-11-16T07:28:52Z"
     }
   }
 }
